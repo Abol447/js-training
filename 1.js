@@ -50,7 +50,6 @@ up.addEventListener("click",function(){
 down.addEventListener("click",function(){
     if(h==270)
     {
-        h=0;
         return;
     }
     else
