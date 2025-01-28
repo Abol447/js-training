@@ -23,6 +23,7 @@
     width: 60px;
     padding: 2px 0px;
     text-align: center;
+    user-select: none;
 }
 #btnAdd{
     background-color: rgb(54, 139, 54);
