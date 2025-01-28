@@ -1,0 +1,35 @@
+#number{
+    margin: 150px auto;
+    border: 2px double black;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    background-color: gray;
+}
+#buttons{
+    margin: 0 auto;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#buttons > *{
+    border: 2px double black;
+    width: 60px;
+    padding: 2px 0px;
+    text-align: center;
+}
+#btnAdd{
+    background-color: rgb(54, 139, 54);
+}
+#btnReset{
+    background-color: rgb(47, 47, 123);
+}
+#btvLose{
+    background-color: rgb(141, 50, 50);
+}
