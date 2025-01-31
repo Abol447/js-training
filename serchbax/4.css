@@ -1,0 +1,35 @@
+#form{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 200px;
+    padding: 5px;
+    gap: 2px;
+}
+#search{
+    border: none;
+    outline: none;
+    
+}
+#search::selection{
+    border: none;
+}
+.border_red{
+    border-bottom: 2px solid red !important;
+}
+.border_green{
+    border-bottom: 2px solid green !important;
+}
+#ul_list{
+    list-style: none;
+    margin-block-start: 0.1em;
+    width: 213.2px;   
+    padding-inline-start: 0px;
+}
+.list_item{
+    background-color:  rgb(207, 202, 202);
+    margin-bottom: 1.5px;
+}
+.list_item:hover{
+    background-color: rgb(160, 159, 159);
+}
