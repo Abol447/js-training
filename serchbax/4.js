@@ -1,4 +1,9 @@
+const input = document.getElementById("search");
 //function{
+const clickfunction = (li)=>{
+    input.value = li.innerHTML;
+    console.log(1);
+}
 const creatLi = (input)=>{
     let li =  document.createElement("li");
     li.innerHTML=input;
@@ -6,9 +11,9 @@ const creatLi = (input)=>{
     ul.append(li);
 }
 //}
+let arreyli = [];
 const searchValue= ["abol","amir"];
 const form = document.getElementById("form");
-const input = document.getElementById("search");
 const ul = document.getElementById("ul_list");
 input.addEventListener("focus",function () {
     form.classList.add("border_red");
@@ -32,4 +37,6 @@ input.addEventListener("input",function(){
             form.classList.add("border_red");
             form.classList.remove("border_green");
         }
+    if(ul.innerHTML=="")
+        creatLi(input.value);
 })
