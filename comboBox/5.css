@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    gap: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#key_select ,#item_select{
+    width: 100px;
+    font-family: inherit;
+}
