@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="9.css">
+</head>
+<body>
+    <div id="table">
+        <div id="nostatus">
+            <ul id="nostatus_titr">
+                <li id="nostatus_item" class="w-full">
+                    no status
+                </li>
+                <li id="nostatus_item" class="item add"> 
+                    <span>add todo</span>
+                    <svg id="add" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M22 14a8 8 0 01-8 8"></path> <path d="M18 11v-1a2 2 0 00-2-2v0a2 2 0 00-2 2v0"></path> <path d="M14 10V9a2 2 0 00-2-2v0a2 2 0 00-2 2v1"></path> <path d="M10 9.5V4a2 2 0 00-2-2v0a2 2 0 00-2 2v10"></path> <path d="M18 11a2 2 0 114 0v3a8 8 0 01-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 012.83-2.82L7 15"></path> </g>
+                    </svg>
+                </li>
+            </ul>
+        </div>
+        <div id="notstarted">
+            <ul id="notstarted_titr">
+                <li id="notstarted_item" class="w-full">not started</li>
+            </ul>
+        </div>
+        <div id="inprogress">
+            <ul id="inprogress_titr">
+                <li id="inprogress_item" class="w-full">inprogress</li>
+            </ul>
+        </div>
+        <div id="completed">
+            <ul id="completed_titr" >
+                <li id="completed_item" class="w-full">completed</li>
+            </ul>
+        </div>
+    </div>
+    <form action="" id="input">
+        <input type="text" placeholder="enter our ToDo" autocomplete="off">
+        <button  id="btn">
+            submit
+        </button>
+    </form>
+    <script src="./9.js"></script>
+</body>
+</html>

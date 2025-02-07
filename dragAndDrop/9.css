@@ -1,0 +1,78 @@
+@keyframes movment{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#table{
+    margin: 50px auto;
+    width: 960px;
+    background-color: gray;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#nostatus{
+    
+}
+.item{
+    background-color: rgb(228, 228, 228);
+    color: rgb(0, 0, 0);
+    width: 50%;
+    margin: auto;
+    margin-top: 5px;
+}
+.w-full{
+    width: 220px;
+    background-color: black;
+}
+#inprogress_item,#notstarted_item,#nostatus_item,#completed_item{
+    padding: 10px;
+}
+#notstarted_titr::after , #inprogress_titr::after ,#completed_titr::after{
+    content: '';
+    background-color: black;
+    width: 1.5px;
+    height: 500px;
+    display: block;
+    position: absolute;
+    top: 0px;
+}
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#nostatus_titr,#notstarted_titr,#inprogress_titr,#completed_titr{
+    text-align: center;
+    padding-inline-start: 0px;
+    position: relative;
+    width: 240px;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+    list-style: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+#notstarted{}
+#notstarted_titr{}
+#inprogress{}
+#inprogress_titr{}
+#completed{}
+#completed_titr{}
+ 
+#input{
+    position: absolute;
+    background-color: rgb(206, 208, 211);
+    width: 250px;
+    top: 100px;
+    padding-left: 22px;
+    height: 50px;
+    z-index: 10;
+    left: 40%;
+    padding-top: 25px;
+    animation-name: movment;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
